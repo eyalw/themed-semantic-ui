@@ -1,0 +1,12 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+/* Text */
+@textTransform: uppercase;
+
+@fontWeight: 400;
+@boxShadow: none;
+
+// @lineHeight: 0.9em;
