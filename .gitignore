@@ -1,2 +1,29 @@
+# Dependency directory
 node_modules
+
+# tmp files
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+.tern-project
+.project
+.gitkeep
+.vagrant
+
+# OS metadata
 .DS_Store
+Thumbs.db
+
+# Editors
+.idea
+*.iml
+
+# ignore compiled files other than the ones we use
+# we only use semantic.min.{js|css}
+dist/components
+dist/themes

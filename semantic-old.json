@@ -1,10 +1,10 @@
 {
-  "base": "/",
+  "base": "semantic",
   "paths": {
     "source": {
       "config": "src/theme.config",
       "definitions": "src/definitions/",
-      "site": "src/site/",
+      "site": "customize/site/",
       "themes": "src/themes/"
     },
     "output": {
@@ -45,6 +45,7 @@
     "api",
     "icon",
     "transition",
+    "form",
     "menu",
     "state"
   ],

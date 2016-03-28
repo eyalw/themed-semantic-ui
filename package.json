@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Custom style for node-starter project",
   "scripts": {
-    "build": "gulp build --cwd ./semantic/",
-    "watch": "gulp watch --cwd ./semantic/"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/eyalw/themed-semantic-ui#readme",
   "devDependencies": {
-    "semantic-ui": "2.1.8"
-  }
+    "semantic-ui": "2.1.8",
+    "gulp": "3.9.1"
+  },
+  "dependencies": {}
 }
