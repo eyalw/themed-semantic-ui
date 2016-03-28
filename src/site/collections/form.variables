@@ -1,3 +1,17 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+
+/* Form Label */
+@labelFontSize: @relative12px;
+// @labelFontWeight: bold;
+@labelTextTransform: uppercase;
+
+@inputFocusBoxShadow: 0 0 4px 0 fade(@primaryColor, 50%);
+
+@inputPlaceholderColor: @unselectedTextColor;
+@inputPlaceholderFocusColor: @unselectedTextColor;
+
+@loaderDimmerColor: fadeout(#F8FBFF, 30%);
+@loaderSize: 4.5em;

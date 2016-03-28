@@ -1,3 +1,92 @@
 /*******************************
      User Global Variables
 *******************************/
+
+// to see available vars to configure, go to:
+// lib/semantic/src/themes/default/globals/site.variables
+
+@fontName: 'Lato';
+@googleFontSizes: '300,400,700,400italic';
+@emSize: 15px;
+@fontSize: 15px;
+
+// @linkColor: #3A8AD9;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+// new primary: #4B9CD4
+
+@primaryColor        : #30BAD9;
+// maybe #41B7D1
+// @secondaryColor      : @black;
+
+// @lightPrimaryColor   : @lightBlue;
+// @lightSecondaryColor : @lightBlack;
+
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight : 300;
+// @headerLineHeight : 1.2857em;
+
+/*--------------
+   Form Input
+---------------*/
+
+@inputVerticalPadding   : @relative12px;
+
+/*-------------------
+    Focused Input
+--------------------*/
+
+/* Used on inputs, textarea etc */
+@focusedFormBorderColor: @primaryColor;
+
+/* Used on dropdowns, other larger blocks */
+// @focusedFormMutedBorderColor: #96C8DA;
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground: #F8FBFF;
+
+/*-------------------
+      Paragraph
+--------------------*/
+
+@paragraphLineHeight : 1.1 * @lineHeight;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor: darken(@primaryColor, 10);
+// @linkUnderline: underline;
+// @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
+@linkHoverUnderline  : underline;
+
+/*-------------------
+     Neutral Text
+--------------------*/
+
+// @darkTextColor               : rgba(0, 0, 0, 0.85);
+// @mutedTextColor              : rgba(0, 0, 0, 0.6);
+// @lightTextColor              : rgba(0, 0, 0, 0.4);
+
+@unselectedTextColor: rgba(0, 0, 0, 0.2);
+// @hoveredTextColor            : rgba(0, 0, 0, 0.8);
+// @pressedTextColor            : rgba(0, 0, 0, 0.9);
+// @selectedTextColor           : rgba(0, 0, 0, 0.95);
+// @disabledTextColor           : rgba(0, 0, 0, 0.2);
+
+/*-------------------
+  Highlighted Text
+--------------------*/
+
+// @highlightBackground      : lighten(@primaryColor, 10%);
+// @inputHighlightBackground : rgba(100, 100, 100, 0.4);

@@ -1,3 +1,11 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.primary.button:focus {
+    box-shadow: 0 0 3px 1px rgba(48,186,217,.5);
+}
+
+.ui.negative.button:focus {
+    box-shadow: 0 0 3px 1px rgba(202, 16, 16, .5);
+}

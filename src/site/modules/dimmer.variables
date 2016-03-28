@@ -1,3 +1,9 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+
+@invertedBackgroundColor: fadeout(#F8FBFF, 20%);
+
+@duration: 0s;
+@transition: none;
