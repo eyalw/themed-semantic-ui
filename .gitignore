@@ -24,6 +24,4 @@ Thumbs.db
 *.iml
 
 # ignore compiled files other than the ones we use
-# we only use semantic.min.{js|css}
 dist/components
-dist/themes
