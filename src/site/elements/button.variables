@@ -4,13 +4,14 @@
 
 
 /* Text */
-@textTransform: uppercase;
+// @textTransform: uppercase;
 
 @fontWeight: 400;
 @boxShadow: none;
 
 // @lineHeight: 0.9em;
+// 
 
 // @focusBoxShadow: 0 0 4px 0;
 
-@iconOpacity: 0.8; //  maybe..
+@iconOpacity: 1; //  maybe..
