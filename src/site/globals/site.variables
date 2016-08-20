@@ -18,7 +18,8 @@
 
 // new primary: #4B9CD4
 
-@primaryColor        : #30BAD9;
+@primaryColor        : #4A90E2;
+// @primaryColor        : #30BAD9;
 // maybe #41B7D1
 // @secondaryColor      : @black;
 
