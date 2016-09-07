@@ -2,11 +2,12 @@
     User Variable Overrides
 *******************************/
 
-// @headerTextTransform: uppercase;
+@headerTextTransform: uppercase;
 @background: transparent;
 @headerBackground: rgb(234, 239, 245);
 @borderColor: rgba(34, 36, 38, 0.11);
 @borderRadius: 2px;
 @headerVerticalPadding: 10px;
 
-@headerFontWeight: normal;
+@headerFontWeight: bold;
+@headerFontSize: 13px;
