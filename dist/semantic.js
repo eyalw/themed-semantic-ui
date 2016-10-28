@@ -3532,8 +3532,6 @@ $.fn.dimmer.settings = {
 
 "use strict";
 
-window.myJQ = $;
-console.log(1111);
 $.fn.dropdown = function(parameters) {
   var
     $allModules    = $(this),
