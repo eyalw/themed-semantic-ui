@@ -3,7 +3,7 @@
 *******************************/
 
 .ui.primary.button:focus {
-    box-shadow: 0 0 3px 1px rgba(48,186,217,.5);
+    box-shadow: 0 0 3px 1px rgba(170, 126, 255,.5);
 }
 
 .ui.negative.button:focus {

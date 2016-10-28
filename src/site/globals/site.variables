@@ -18,10 +18,12 @@
 
 // new primary: #4B9CD4
 
-@primaryColor        : #4A90E2;
+// @primaryColor        : #4A90E2;
+@primaryColor           : #AA7EFF;
+
 // @primaryColor        : #30BAD9;
 // maybe #41B7D1
-// @secondaryColor      : @black;
+@secondaryColor      : #7A888C;
 
 // @lightPrimaryColor   : @lightBlue;
 // @lightSecondaryColor : @lightBlack;
@@ -55,6 +57,8 @@
 --------------------*/
 
 @pageBackground: #F8FBFF;
+// @pageBackground: #fbf9ff;
+
 
 /*-------------------
       Paragraph
@@ -89,5 +93,5 @@
   Highlighted Text
 --------------------*/
 
-// @highlightBackground      : lighten(@primaryColor, 10%);
-// @inputHighlightBackground : rgba(100, 100, 100, 0.4);
+@highlightBackground      : lighten(@primaryColor, 16%);
+@inputHighlightBackground : lighten(@primaryColor, 16%);
